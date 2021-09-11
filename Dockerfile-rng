@@ -1,1 +1,2 @@
-
+FROM  library/python:latest
+RUN   pip install flask
