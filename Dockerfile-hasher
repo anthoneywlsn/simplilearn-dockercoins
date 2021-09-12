@@ -1,2 +1,2 @@
-FROM  library/ruby:alpine@sha256:103e3cf72084365b953428970a7627ba22564a9bf971bf6d19990598b73a9746
+FROM  library/ruby:2.5.9-alpine3.13@sha256:5b2a11e6d0924ac69d5409c98bba3dc18f1acaa4570eddfea2874cdb7b7b67a6
 RUN   apk add build-base && gem install sinatra
