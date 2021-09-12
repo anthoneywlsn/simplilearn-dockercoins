@@ -12,5 +12,7 @@ docker image build --file Dockerfile-rng --tag local/simplilearn-dockercoins:tes
 docker image build --file Dockerfile-webui --tag local/simplilearn-dockercoins:test-webui /mnt/
 docker image build --file Dockerfile-worker --tag local/simplilearn-dockercoins:test-worker /mnt/ 
 
-
+docker network create hasher
+docker network create redis
+docker network create rng
 ```
