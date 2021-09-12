@@ -15,4 +15,7 @@ docker image build --file Dockerfile-worker --tag local/simplilearn-dockercoins:
 docker network create hasher
 docker network create redis
 docker network create rng
+
+docker volume create redis
+
 ```
