@@ -1,2 +1,2 @@
-FROM  library/ruby:latest
+FROM  library/ruby:alpine
 RUN   gem install sinatra
